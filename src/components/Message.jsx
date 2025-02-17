@@ -11,8 +11,8 @@ function Message() {
 
   // customize your own picture, title and subtext. You can also add more picture.
   const pictures = [
-    { Image: picture1, title: 'February 30, 3024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},   
-    { Image: picture2, title: 'February 30, 3024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},
+    { Image: picture1, title: 'October 7, 2023', description: "Ini dulu waktu kita naik gunung, gatau bener apa ngga itu tangalnya. Naik gunung sama bunda juga 🗿"},   
+    { Image: picture2, title: 'October 28, 2023', description: "Ini pas INAGURASI, sekali lagi gatau itu bener apa ngga tanggalnya awokokwowkow"},
 
   ]
   return (

@@ -10,8 +10,8 @@ function Picture() {
   const navigate = useNavigate();
 
   const pictures = [
-    { Image: picture3, title: 'February 30, 3024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},   
-    { Image: picture4, title: 'February 30, 3024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},
+    { Image: picture3, title: 'December 21, 2023', description: "Ini yang di FORE ama rawer, ada sopyan juga. "},   
+    { Image: picture4, title: 'January 1, 2025', description: "Nah iniii, yang barusann Januari wkwkwk"},
 
   ]
   return (

@@ -3,65 +3,65 @@ import { ArrowLeft } from "./icons";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useRef } from "react";
-import { seasons,lany,onbended,herewithme,givemeyour,honey,always,mylove } from "../assets";
+import { goodday,heaven,inl,sparks,timeless,tiptoe,wantu,yellow } from "../assets";
 
 function Music() {
   const navigate = useNavigate();
   // Customize and add your own songs
   const songs = [
     {
-      title: "seasons",
-      artist: "wave to earth",
-      albumCover: seasons, 
+      title: "Good Day",
+      artist: "SZA",
+      albumCover: goodday, 
       left: "5%",
       top: "5%",
     },
     {
-      title: "'Cause You Have To",
-      artist: "LANY",
-      albumCover: lany, 
+      title: "Heaven Sent",
+      artist: "Tevomxntana",
+      albumCover: heaven, 
       left: "40%",
       top: "15%",
     },
     {
-      title: "On Bended Knee",
-      artist: "Boyz II Men",
-      albumCover: onbended, 
+      title: "It's Not Living",
+      artist: "The 1975",
+      albumCover: inl, 
       left: '15%',
       top: '40%',
     },
     {
-      title: "Here With Me",
-      artist: "d4vd",
-      albumCover: herewithme, 
+      title: "Sparks",
+      artist: "Coldplay",
+      albumCover: sparks, 
       left: '30%',
       top: '75%',
     },
     {
-      title: "Give Me Your Forever",
-      artist: "Zack Tabudlo",
-      albumCover: givemeyour, 
+      title: "Timeless",
+      artist: "The Weeknd",
+      albumCover: timeless, 
       left: '5%',
       top: '65%',
     },
     {
-      title: "honey",
-      artist: "Boy Pablo",
-      albumCover: honey, 
+      title: "Tip Toe",
+      artist: "HYBS",
+      albumCover: tiptoe, 
       left: '25%',
       top: '90%',
     },
     {
-      title: "Always",
-      artist: "Daniel Caesar",
-      albumCover: always, 
+      title: "Want U",
+      artist: "noevdv",
+      albumCover: wantu, 
       left: '35%',
       top: '50%',
     },
     {
-      title: "My Love Mine All Mine",
-      artist: "Mitski",
-      albumCover: mylove, 
+      title: "Yellow",
+      artist: "Coldplay",
+      albumCover: yellow, 
       left: "10%",
       top: "25%",
     },
@@ -72,7 +72,7 @@ function Music() {
     <div className="min-h-screen bg-black/20 flex flex-col items-center justify-center">
     <div className="w-[90%] max-w-[400px]">
       <h1 className="text-2xl sm:text-2xl font-bold -mb-4 mt-4 drop-shadow-lg text-white text-center">
-        Songs that remind me of you
+        Songs that remind me of you ❤️
       </h1>
 
       <div ref={containerRef}  className=" relative w-full h-[40rem] rounded-lg overflow-hidden mt-8 mb-12">
