@@ -10,7 +10,7 @@ function Picture() {
   const navigate = useNavigate();
 
   const pictures = [
-    { Image: picture3, title: 'December 21, 2023', description: "Ini yang di FORE ama rawer, ada sopyan juga. "},   
+    { Image: picture3, title: 'December 21, 2023', description: "Ini yang di TOMORO ama rawer, ada sopyan juga. "},   
     { Image: picture4, title: 'January 1, 2025', description: "Nah iniii, yang barusann Januari wkwkwk"},
 
   ]
