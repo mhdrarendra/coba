@@ -23,7 +23,7 @@ function Passcode() {
               
             }, 500)
           } else {
-            setMessage('Incorrect passcode, hint: our anniversary date!')
+            setMessage('Incorrect passcode, hint: your birthday')
             setTimeout(() => {
               setPasscode([])
               setMessage('')
